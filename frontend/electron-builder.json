@@ -1,0 +1,13 @@
+{
+    "appId": "com.yourcompany.yourapp",
+    "productName": "Your App Name",
+    "directories": {
+       "output": "out"
+    },
+    "files": [
+       "out/**/*",
+       "package.json"
+    ],
+    "extends": null
+ }
+ 

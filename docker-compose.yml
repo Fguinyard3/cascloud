@@ -1,0 +1,21 @@
+version: '3.4'
+
+services:
+  client:
+    image: frontend
+    build:
+      context: frontend
+      dockerfile: ./Dockerfile
+    environment:
+      - REACT_APP_APP_KEY=3F03D20E-5311-43D8-8A76-E4B5D77793BD
+    ports:
+      - 3000:3000
+  # backend:
+  #   image: backend
+  #   build:
+  #     context: backend
+  #     dockerfile: ./Dockerfile
+  #   ports:
+  #     - 8000:8000
+
+
